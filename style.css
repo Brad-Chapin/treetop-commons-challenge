@@ -1,6 +1,11 @@
 .mid {
   text-align: center;
 }
- div {
+
+div {
    margin-bottom: 2rem;
  }
+
+#err {
+  visibility: hidden;
+}
