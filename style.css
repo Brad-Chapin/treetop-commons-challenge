@@ -6,6 +6,6 @@ div {
    margin-bottom: 2rem;
  }
 
-#err {
+.hide {
   visibility: hidden;
 }
