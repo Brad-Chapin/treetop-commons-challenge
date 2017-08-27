@@ -1,3 +1,12 @@
+html {
+  font-family: helvetica;
+  font-size: 80%;
+}
+
+body {
+  background-color: lightblue;
+}
+
 .mid {
   text-align: center;
 }
@@ -8,4 +17,10 @@ div {
 
 .hide {
   visibility: hidden;
+}
+
+#btn {
+  height: 2rem;
+  background-color: black;
+  color: white;
 }

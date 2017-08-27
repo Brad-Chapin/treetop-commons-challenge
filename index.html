@@ -16,7 +16,7 @@
 </head>
 <body>
   <h1 class= "mid">Portland Weather...</h1>
-  <h2 class = "mid">...at a glance!</h2>
+  <h2 class = "mid">... at a glance!</h2>
   <br>
   <div class = "mid">
     <input type = "text" id = "zip" placeholder="your zipcode here">
@@ -27,6 +27,14 @@
       <button id = "btn">Get your five day forecast!</button>
   </div>
   <div id = "err" class = "mid hide" >Please enter a valid zipcode.</div>
-  <div id = "fiveday"></div>
+  <div class="mid">Five day forcast for <span id = "city">your city.</span></div>
+  <div class = "mid">
+    <div id = "one"></div>
+    <div id = "two"></div>
+    <div id = "three"></div>
+    <div id = "four"></div>
+    <div id = "five"></div>
+  </div>
+  <div id = "noon" class = "mid hide">All data shown for noon of each day. For three hour incremented data, visit <a href="https://openweathermap.org/" target = "_blank">openweathermap.org</a></div>
 </body>
 </html>
